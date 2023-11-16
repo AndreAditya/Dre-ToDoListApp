@@ -1,0 +1,101 @@
+* {
+  font-family: "Arial";
+}
+
+/* css for button */
+.custom-button,
+.button-addnew,
+.button-red {
+  color: #ffffff;
+  border: none !important;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.custom-button {
+  width: 100%;
+  background-color: #4284a5 !important;
+}
+
+.button-red {
+  background-color: #eb0000 !important;
+  width: 100%;
+}
+
+.button-addnew {
+  width: 60%;
+  background-color: #4284a5 !important;
+}
+
+.custom-button:hover,
+.button-addnew:hover,
+.button-red:hover {
+  background-color: grey !important;
+  color: #ffffff;
+}
+
+.search-logo {
+  background-color: #4284a5 !important;
+  color: #ffffff !important;
+}
+
+/* icons */
+.delete {
+  color: red;
+  transition: transform 0.3s ease-out;
+}
+
+.edit {
+  color: orange;
+  transition: transform 0.3s ease-out;
+}
+
+.delete:hover {
+  color: darkred !important;
+  cursor: pointer;
+  transform: scale(1.3); /* Mengubah ukuran ikon saat dihover */
+}
+
+.edit:hover {
+  color: darkorange !important;
+  cursor: pointer;
+  transform: scale(1.2); /* Mengubah ukuran ikon saat dihover */
+}
+
+/* input */
+.custom-input:focus {
+  box-shadow: none !important;
+  border: #4284a5 2px solid !important;
+}
+
+.input-checkbox {
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid #4284a5;
+}
+
+.input-checkbox:checked::after {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  color: #4284a5;
+}
+
+.width-custom {
+  width: 10%;
+}
+
+p {
+  font-size: 18px;
+}
+
+.complete-task {
+  text-decoration: line-through red;
+  text-decoration-thickness: 4px;
+  color: grey;
+}

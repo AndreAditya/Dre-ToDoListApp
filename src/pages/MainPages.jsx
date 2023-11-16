@@ -1,7 +1,7 @@
 import { Container, Row } from "react-bootstrap";
 import { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-import SearchToDo from "../components/SearchToDo";
+import SearchToDo from "../components/SearchTodo";
 import TodoList from "../components/TodoList";
 import TodoFilter from "../components/TodoFilter";
 import todos from "../data/todos.json";
